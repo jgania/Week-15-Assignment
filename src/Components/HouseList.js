@@ -1,6 +1,6 @@
 import React from "react";
 import { House } from "./House";
-import { housesApi } from "../Rest/HousesAPI";
+import { housesApi } from "../rest/HousesAPI";
 
 export class HousesList extends React.Component {
     state = {
